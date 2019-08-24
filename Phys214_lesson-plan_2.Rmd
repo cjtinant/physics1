@@ -1,0 +1,70 @@
+---
+title: "University Physics I (Phys214) - Lesson Sheet 21" 
+author: "CJ Tinant"
+date: "`r Sys.Date()`"
+output:
+#  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE} 
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+
+## Chapter 5 - Application of Newton's Laws of Motion - Part II 
+
+`r newthought('application of Newtons laws of motion')` describes why the sifaka, a lemur (old-world monkey) from Madagascar, spreads out its arms and legs in front of itself while making spectacular leaps from tree to tree. 
+
+<!-- Pass the image of the text figure into the margin -->
+\begin{marginfigure}
+\includegraphics[width=\linewidth]{figures/fig_ch5_1.png} 
+\end{marginfigure}
+
+`r newthought('The student learning outcome')` is **SLO2:**	Use Newton’s law of motion to analyze objects in dynamic equilibrium and undergoing acceleration.
+
+`r newthought('Weekly Learning Objectives')` are to:
+
+* Solve problems with sliding and rolling friction, and understand how
+static friction can prevent motion;
+
+* Use the linear and quadratic models of drag to solve problems
+about motion through a fluid and to calculate terminal speeds; 
+
+* Use Newton’s third law to identify forces on and to solve problems about interacting objects;
+
+
+`r newthought('Homework is due')` on the Friday following the next class period.  Please upload homework assignments as a pdf to Google Scholar.  You can either scan your assignment or take a picture of your assignment and convert it to a pdf.  If you have an iPhone, tap on the ‘Share’ icon, then share to iBooks to automatically convert the jpg to a pdf.  
+
+`r newthought('Week one problems')` Chapter 5 problems #: 27, 33, 39, 41, 43.    
+
+`r newthought('Looking forward to next week')` we will begin Chapter Six.
+
+\newpage 
+ 
+`r newthought('The roughness of a surface exerts friction')` parallel to and in the opposite direction of the direction it is moving. Resting friction force is called static friction. ^[$\vec{f_s} = \mu_sn)$] Sliding friction force is called kinetic friction. ^[$\vec{f_k} = \mu_kn$] Rolling friction force is called rolling friction. ^[$\vec{f_r} = \mu_rn$] ^[Rolling friction is always less than kinetic friction which is always less than static friction.] 
+
+
+`r newthought('As an object moves through a fluid')` like air or water, the resistive force is called *drag*. ^[Drag force is in the opposite direction of motion.] Drag consists of two different forces.  *Inertial forces* dominate for objects moving rapidly.  *Viscous forces* dominate for objects moving slowly.  To find which force dominates, find the Reynolds number ^[$R_e = \frac{F_{inertia}}{F_{viscious}} = \frac{\rho v^2 L^2}{\eta Lv} = \frac{\rho v L}{\eta}$], the *ratio* between inertial forces and viscous forces.  
+
+`r newthought('Objects at a high Reynolds number')` are subject to inertial forces ^[$\vec{D} = \frac{1}{2}C_{D} \rho A v^2$] 
+
+<!-- Add some whitespace -->
+\vspace{48pt}  
+
+# In Class Problems 
+`r newthought('Problem 1--syllabus')` Please go to Google Classroom, enroll for the class and print out your syllabus.  Go to https://classroom.google.com/c/MTUyNTI3NDQ0MDBa. The class code is **kk6aw2y**.  ^[You will need to use your OLC email address to access Google Classroom.]
+
+
+
+
